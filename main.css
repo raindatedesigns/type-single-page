@@ -1,14 +1,13 @@
 @font-face {
-    src: url("./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff2") format("woff2"),
-         url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff') format("woff");
-    font-family: 'Forma';
+    src: url("fonts/IndoorKidVariable[EMPH\,slnt\,wdth\,wght].woff2") format("woff2"),
+    font-family: 'Indoor Kid';
     font-style: normal;
     font-weight: normal;
     }
     
     body{
     background-color: pink;
-    font-family: 'Forma';
+    font-family: 'Indoor Kid';
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
