@@ -60,13 +60,7 @@ h3{
     animation: weightChange 7s infinite;
 }
 
-@keyframes weightChange {
-    0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
-    }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" -13;
-    }
-}
+
 /* animations for the variations section */
 .weight{
     animation: weightVariations 5s infinite;
