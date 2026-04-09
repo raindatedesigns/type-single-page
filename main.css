@@ -6,9 +6,34 @@
     }
     
     body{
-    background-color:#B3EDF1;
+    background-color:#ffffff;
     font-family: 'Indoor Kid';
 }
+
+/* hero section */
+.hero{
+    background-image: url("Assests/1_purple1.svg");
+    background-size: cover;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    grid-template-areas: 
+    "o o . ."
+    "o o n n"
+    ". . n n";
+}
+
+    #bubble-one{
+        grid-area: o;
+        /* width:150px; */
+    }
+    #bubble-two{
+        grid-area: n;
+        /* width: 100px; */
+    }
+
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     /* where to change the width of the columns on desktop view */
@@ -24,13 +49,17 @@ grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "v h"
-    "a a";
+    "h h h h"
+    "v v v v"
+    "a a a a";
+    background-color: #130D5E;
+    background-size: contain;
 }
 
 #history {
 grid-area: h;
-background-color: lightcoral;
+ background-color: #130D5E;
+    background-size: contain;
 }
 
 #variations{
@@ -43,7 +72,7 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: rgb(138, 21, 21);
+    background-color: #B3EDF1;
     height:200px;
 }
 
