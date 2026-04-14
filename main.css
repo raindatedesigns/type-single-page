@@ -6,23 +6,24 @@
     }
     
     body{
-    background-color:#ffffff;
+    background-color:#130D5E;
     font-family: 'Indoor Kid';
 }
 
 /* hero section */
 .hero{
+    margin-top: 30px;
     background-image: url("Assests/1_purple1.svg");
     background-size: cover;
     display: grid;
-    grid-gap: 25px;
+    grid-gap: 50px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
 
     grid-template-areas: 
     "o o . ."
-    "o o n n"
-    ". . n n";
+    "o o . ."
+    "o o n n";
 }
 
     #bubble-one{
@@ -31,6 +32,7 @@
     }
     #bubble-two{
         grid-area: n;
+        transform: translate((100px,-500px));
         /* width: 100px; */
     }
 
@@ -50,10 +52,14 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
     "h h h h"
+    "h h h h"
     "v v v v"
+    "v v v v"
+    "a a a a"
     "a a a a";
     background-color: #130D5E;
     background-size: contain;
+    text-align: center;
 }
 
 #history {
@@ -64,12 +70,15 @@ grid-area: h;
 
 #variations{
 grid-area: v;
+background-color: #130D5E
+
 }
 
 #alphabet {
 grid-area: a;
+background-color: #130D5E;
 }
-}
+
 /* CSS for the footer */
 footer{
     background-color: #B3EDF1;
@@ -78,7 +87,7 @@ footer{
 
 /* font styling area */
 h2{
-    color: firebrick;
+    color: #B3EDF1;
     font-variation-settings: "opsz" 16, "wght" 900, "slnt" -8;
 }
 
@@ -88,7 +97,10 @@ h3{
     font-size: 5em;
     animation: weightChange 7s infinite;
 }
-
+.icon-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 /* animations for the variations section */
 .weight{
@@ -96,9 +108,9 @@ h3{
 }
 @keyframes weightVariations {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "wght" 300, "wdth" 100, "slnt" 0, "EMPH" 100;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" 0;
+    50%{font-variation-settings: "wght" 700, "wdth" 100, "slnt" 0, "EMPH" 100;
     }
 }
 /* where the animation is for the width change */
@@ -107,9 +119,9 @@ h3{
 }
 @keyframes widthVariations {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "wght" 300, "wdth" 70, "slnt" 0, "EMPH" 100;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" 0;
+    50%{font-variation-settings: "wght" 300, "wdth" 130, "slnt" 0, "EMPH" 100;
     }
 }
 
@@ -118,17 +130,32 @@ h3{
 }
 @keyframes slantVariations {
     0%, 100%{
-        font-variation-settings: ;
+        font-variation-settings: "wght" 300, "wdth" 100, "slnt" -20, "EMPH" 100;
     }
-    50%{
-        font-variation-settings: ;
+    50%{font-variation-settings: "wght" 300, "wdth" 100, "slnt" 0, "EMPH" 100;
+    }
+}
+
+.emphasis{
+     animation: emphasisVariations 5s infinite;
+}
+@keyframes  emphasisVariations{
+    0%, 100%{
+        font-variation-settings: "wght" 300, "wdth" 100, "slnt" 0, "EMPH" 100;
+    }
+    50%{font-variation-settings: "wght" 300, "wdth" 100, "slnt" 0, "EMPH" 125;
+    
     }
 }
 
 
+p{
+    color:#B3EDF1
+}
+
 h5{
     font-size:40px;
-    color:rgb(11, 11, 53);
+    color:#B3EDF1;
     margin:15px;
 }
 
@@ -157,4 +184,4 @@ h5{
     text-align: center;
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
-
+}

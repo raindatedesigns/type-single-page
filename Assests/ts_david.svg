@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 874.29 565.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #130d5e;
+        stroke: #fff;
+        stroke-width: 20px;
+      }
+
+      .cls-2 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-8 {
+        fill: #fff;
+        font-family: IndoorKidVariable-Regular, 'Indoor Kid Variable';
+        font-size: 83.41px;
+        font-variation-settings: 'wght' 400, 'wdth' 100, 'slnt' 0, 'EMPH' 100;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <path class="cls-1" d="M84,534.75l233.85-74.34c44.05,19.57,95.3,30.79,149.98,30.79,164.57,0,297.97-101.53,297.97-226.75S632.4,37.7,467.83,37.7s-297.98,101.53-297.98,226.75c0,56.12,26.79,107.48,71.19,147.08l-157.03,123.23h-.01Z"/>
+  </g>
+  <text class="cls-8" transform="translate(349.86 199.09)"><tspan class="cls-7" x="0" y="0">D</tspan><tspan class="cls-3" x="58.8" y="0">a</tspan><tspan x="110.94" y="0">vid</tspan><tspan x="-131.79" y="100.09">Joh</tspan><tspan class="cls-6" x="27.19" y="100.09">n</tspan><tspan class="cls-2" x="83.58" y="100.09">a</tspan><tspan x="131.45" y="100.09">t</tspan><tspan class="cls-5" x="181.17" y="100.09">h</tspan><tspan x="233.3" y="100.09">an </tspan><tspan x="9.26" y="200.18">Ro</tspan><tspan class="cls-4" x="129.37" y="200.18">s</tspan><tspan x="180" y="200.18">s</tspan></text>
+</svg>
