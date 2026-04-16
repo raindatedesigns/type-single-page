@@ -57,7 +57,9 @@ grid-template-areas:
     "v v v v"
     "v v v v"
     "a a a a"
-    "a a a a";
+    "a a a a"
+    "d d d d"
+    "d d d d";
     background-color: #130D5E;
     background-size: contain;
     text-align: center;
@@ -79,7 +81,35 @@ background-color: #130D5E
 #alphabet {
 grid-area: a;
 background-color: #130D5E;
+
 }
+
+
+.download {
+grid-area: d;
+background-image: url("Assests/1_purple1.svg");
+    background-size: cover;
+     display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    grid-template-areas: 
+    "t t . ."
+    "t t . ."
+    "t t b b";
+
+}
+
+ #download-text{
+        grid-area: t;
+        /* width:150px; */
+    }
+    #download-button{
+        grid-area: b;
+        transform: translate((100px,-500px));
+        /* width: 100px; */
+    }
 
 /* CSS for the footer */
 footer{
